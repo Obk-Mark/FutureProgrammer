@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+}
+header {
+  display: flex;
+  background-color: gray;
+  color: antiquewhite;
+  text-align: center;
+  justify-content: center;
+  min-height: 50px;
+  max-height: 100px;
+  width: 100%;
+}
+
+h1 {
+  margin: 0;
+  padding-top: 5px;
+}
+
+main {
+  font-size: 30px;
+  clear: left;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 20%;
+  background-color: aqua;
+  color: black;
+  position: absolute;
+  font-size: 20px;
+  float: left;
+}
